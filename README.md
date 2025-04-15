@@ -29,8 +29,7 @@ An AI-powered voice discussion platform where multiple AI agents analyze documen
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-group-discussion.git
-cd ai-group-discussion
+git clone https://github.com/Prathap452000/AI_Powered_Group_Discussion_Agents.git
 
 # Install dependencies
 pip install -r requirements.txt
