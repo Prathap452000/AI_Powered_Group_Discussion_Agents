@@ -35,21 +35,19 @@ git clone https://github.com/Prathap452000/AI_Powered_Group_Discussion_Agents.gi
 pip install -r requirements.txt
 
 # Set up environment variables
-cp .env.example .env
-# Edit .env with your API key and settings
+GEMINI_API_KEY=your_api_key_here
+FLASK_SECRET_KEY=your_secret_key
 
 # Run the Flask application
 python app.py
 
 # Access the web interface at http://localhost:5000
 
-GEMINI_API_KEY=your_api_key_here
-FLASK_SECRET_KEY=your_secret_key
-AUTO_SPEAK=True  # Enable/disable automatic voice responses
+#Folder structure
 
 ├── app.py                # Main application
-├── static/               # Static files (CSS, JS)
 ├── templates/            # HTML templates
 ├── uploads/              # Document upload directory
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
+
